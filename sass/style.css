@@ -1,0 +1,98 @@
+body {
+  height: 100%;
+  margin: 0 auto;
+}
+
+html {
+  height: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  display: table;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  background: #1d2733;
+}
+.container .inputs-container {
+  display: table-cell;
+  text-align: center;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+.container .inputs-container .input-upper {
+  position: relative;
+  width: 300px;
+  margin: 50px auto 0 auto;
+}
+.container .inputs-container .input-upper img {
+  position: absolute;
+  left: -50px;
+  width: 25px;
+  top: 5px;
+}
+.container .inputs-container .input-upper input {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  border-bottom: 2px solid #ebcc67;
+  transition: 1s ease;
+}
+.container .inputs-container .input-upper input:focus {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  outline: none;
+  border-bottom: 2px solid #2e4762;
+}
+.container .inputs-container .input-upper input:focus ~ label {
+  transform: translate3d(0px, -31px, 0px);
+  font-weight: 700;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+.container .inputs-container .input-upper input:valid {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  outline: none;
+  border-bottom: 2px solid #2e4762;
+}
+.container .inputs-container .input-upper input:valid ~ label {
+  transform: translate3d(0px, -31px, 0px);
+  font-weight: 700;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+.container .inputs-container .input-upper label {
+  position: absolute;
+  left: 10px;
+  top: -10px;
+  font: 20px/52px "Oxygen";
+  transition: all 0.3s ease;
+  color: #e1f1ff;
+  font-family: "Montserrat", sans-serif;
+  pointer-events: none;
+}
+.container .inputs-container .feedback {
+  color: white;
+  font-size: 36px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#button_submit {
+  background-color: #ebcc67;
+  color: white;
+  margin-top: 50px;
+  padding: 10px 20px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+}/*# sourceMappingURL=style.css.map */
